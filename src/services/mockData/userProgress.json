@@ -1,0 +1,71 @@
+[
+  {
+    "Id": 1,
+    "courseId": "1",
+    "completedLessons": [1, 2, 3],
+    "quizScores": [
+      {
+        "lessonId": "1",
+        "score": 85,
+        "attempts": 1
+      },
+      {
+        "lessonId": "3",
+        "score": 92,
+        "attempts": 1
+      }
+    ],
+    "lastAccessed": "2024-01-15T10:30:00Z",
+    "completionPercentage": 60
+  },
+  {
+    "Id": 2,
+    "courseId": "2",
+    "completedLessons": [6, 7],
+    "quizScores": [
+      {
+        "lessonId": "6",
+        "score": 78,
+        "attempts": 2
+      }
+    ],
+    "lastAccessed": "2024-01-14T14:20:00Z",
+    "completionPercentage": 40
+  },
+  {
+    "Id": 3,
+    "courseId": "3",
+    "completedLessons": [9, 10],
+    "quizScores": [
+      {
+        "lessonId": "9",
+        "score": 88,
+        "attempts": 1
+      }
+    ],
+    "lastAccessed": "2024-01-13T09:15:00Z",
+    "completionPercentage": 50
+  },
+  {
+    "Id": 4,
+    "courseId": "4",
+    "completedLessons": [11],
+    "quizScores": [
+      {
+        "lessonId": "11",
+        "score": 95,
+        "attempts": 1
+      }
+    ],
+    "lastAccessed": "2024-01-12T16:45:00Z",
+    "completionPercentage": 25
+  },
+  {
+    "Id": 5,
+    "courseId": "5",
+    "completedLessons": [13, 14],
+    "quizScores": [],
+    "lastAccessed": "2024-01-11T11:30:00Z",
+    "completionPercentage": 35
+  }
+]

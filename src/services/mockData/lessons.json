@@ -1,0 +1,202 @@
+[
+  {
+    "Id": 1,
+    "courseId": "1",
+    "title": "Introduction to React",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 45,
+    "completed": false,
+    "notes": "",
+    "section": "Getting Started"
+  },
+  {
+    "Id": 2,
+    "courseId": "1",
+    "title": "Setting Up Your Development Environment",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 30,
+    "completed": false,
+    "notes": "",
+    "section": "Getting Started"
+  },
+  {
+    "Id": 3,
+    "courseId": "1",
+    "title": "Your First React Component",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    "duration": 35,
+    "completed": false,
+    "notes": "",
+    "section": "React Fundamentals"
+  },
+  {
+    "Id": 4,
+    "courseId": "1",
+    "title": "Props and State",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    "duration": 50,
+    "completed": false,
+    "notes": "",
+    "section": "React Fundamentals"
+  },
+  {
+    "Id": 5,
+    "courseId": "1",
+    "title": "Event Handling",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    "duration": 40,
+    "completed": false,
+    "notes": "",
+    "section": "React Fundamentals"
+  },
+  {
+    "Id": 6,
+    "courseId": "2",
+    "title": "Introduction to UI/UX Design",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "duration": 25,
+    "completed": false,
+    "notes": "",
+    "section": "Design Basics"
+  },
+  {
+    "Id": 7,
+    "courseId": "2",
+    "title": "Design Thinking Process",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+    "duration": 40,
+    "completed": false,
+    "notes": "",
+    "section": "Design Basics"
+  },
+  {
+    "Id": 8,
+    "courseId": "2",
+    "title": "User Research Methods",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "duration": 55,
+    "completed": false,
+    "notes": "",
+    "section": "Research"
+  },
+  {
+    "Id": 9,
+    "courseId": "3",
+    "title": "Digital Marketing Overview",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+    "duration": 30,
+    "completed": false,
+    "notes": "",
+    "section": "Marketing Fundamentals"
+  },
+  {
+    "Id": 10,
+    "courseId": "3",
+    "title": "Content Marketing Strategy",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    "duration": 45,
+    "completed": false,
+    "notes": "",
+    "section": "Content Marketing"
+  },
+  {
+    "Id": 11,
+    "courseId": "4",
+    "title": "Python for Data Science",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+    "duration": 60,
+    "completed": false,
+    "notes": "",
+    "section": "Python Basics"
+  },
+  {
+    "Id": 12,
+    "courseId": "4",
+    "title": "Data Manipulation with Pandas",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+    "duration": 50,
+    "completed": false,
+    "notes": "",
+    "section": "Data Analysis"
+  },
+  {
+    "Id": 13,
+    "courseId": "5",
+    "title": "Leadership Fundamentals",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+    "duration": 35,
+    "completed": false,
+    "notes": "",
+    "section": "Leadership Basics"
+  },
+  {
+    "Id": 14,
+    "courseId": "5",
+    "title": "Team Management Skills",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 40,
+    "completed": false,
+    "notes": "",
+    "section": "Team Management"
+  },
+  {
+    "Id": 15,
+    "courseId": "6",
+    "title": "Camera Basics",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 25,
+    "completed": false,
+    "notes": "",
+    "section": "Photography Fundamentals"
+  },
+  {
+    "Id": 16,
+    "courseId": "6",
+    "title": "Understanding Exposure",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    "duration": 35,
+    "completed": false,
+    "notes": "",
+    "section": "Photography Fundamentals"
+  },
+  {
+    "Id": 17,
+    "courseId": "7",
+    "title": "Node.js Introduction",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    "duration": 40,
+    "completed": false,
+    "notes": "",
+    "section": "Node.js Basics"
+  },
+  {
+    "Id": 18,
+    "courseId": "7",
+    "title": "Express.js Framework",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    "duration": 55,
+    "completed": false,
+    "notes": "",
+    "section": "Web Framework"
+  },
+  {
+    "Id": 19,
+    "courseId": "8",
+    "title": "Design Principles",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "duration": 30,
+    "completed": false,
+    "notes": "",
+    "section": "Design Fundamentals"
+  },
+  {
+    "Id": 20,
+    "courseId": "8",
+    "title": "Typography Basics",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+    "duration": 45,
+    "completed": false,
+    "notes": "",
+    "section": "Typography"
+  }
+]

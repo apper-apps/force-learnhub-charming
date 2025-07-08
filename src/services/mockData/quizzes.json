@@ -1,0 +1,222 @@
+[
+  {
+    "Id": 1,
+    "lessonId": "1",
+    "timeLimit": 10,
+    "passingScore": 70,
+    "questions": [
+      {
+        "question": "What is React?",
+        "options": [
+          "A JavaScript library for building user interfaces",
+          "A programming language",
+          "A database management system",
+          "A web server"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which company developed React?",
+        "options": [
+          "Google",
+          "Microsoft",
+          "Facebook",
+          "Apple"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is JSX?",
+        "options": [
+          "A new programming language",
+          "A syntax extension for JavaScript",
+          "A database query language",
+          "A styling framework"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which method is used to render React elements?",
+        "options": [
+          "React.render()",
+          "ReactDOM.render()",
+          "React.display()",
+          "React.show()"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What are React components?",
+        "options": [
+          "CSS classes",
+          "HTML elements",
+          "Reusable pieces of code that return JSX",
+          "JavaScript functions only"
+        ],
+        "correctAnswer": 2
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "lessonId": "3",
+    "timeLimit": 15,
+    "passingScore": 70,
+    "questions": [
+      {
+        "question": "How do you create a React component?",
+        "options": [
+          "Using class or function syntax",
+          "Only using classes",
+          "Only using functions",
+          "Using HTML templates"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the correct way to export a component?",
+        "options": [
+          "export Component",
+          "export default Component",
+          "module.exports = Component",
+          "Both A and B"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which lifecycle method is called first?",
+        "options": [
+          "componentDidMount",
+          "componentWillMount",
+          "constructor",
+          "render"
+        ],
+        "correctAnswer": 2
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "lessonId": "6",
+    "timeLimit": 12,
+    "passingScore": 70,
+    "questions": [
+      {
+        "question": "What does UI stand for?",
+        "options": [
+          "User Interface",
+          "Universal Internet",
+          "User Interaction",
+          "Unified Interface"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What does UX stand for?",
+        "options": [
+          "User Extension",
+          "User Experience",
+          "Universal Experience",
+          "User Experiment"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which is the first step in the design thinking process?",
+        "options": [
+          "Ideate",
+          "Prototype",
+          "Empathize",
+          "Test"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is a wireframe?",
+        "options": [
+          "A finished design",
+          "A low-fidelity structural blueprint",
+          "A color scheme",
+          "A font selection"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "lessonId": "9",
+    "timeLimit": 10,
+    "passingScore": 70,
+    "questions": [
+      {
+        "question": "What is digital marketing?",
+        "options": [
+          "Traditional advertising",
+          "Marketing using digital channels",
+          "Only social media marketing",
+          "Email marketing only"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which platform is best for B2B marketing?",
+        "options": [
+          "Instagram",
+          "TikTok",
+          "LinkedIn",
+          "Snapchat"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does SEO stand for?",
+        "options": [
+          "Social Engine Optimization",
+          "Search Engine Optimization",
+          "Site Engine Optimization",
+          "Search Entry Optimization"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "lessonId": "11",
+    "timeLimit": 15,
+    "passingScore": 70,
+    "questions": [
+      {
+        "question": "What is Python primarily used for in data science?",
+        "options": [
+          "Web development only",
+          "Data analysis and machine learning",
+          "Game development",
+          "Mobile app development"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which library is commonly used for data manipulation in Python?",
+        "options": [
+          "NumPy",
+          "Pandas",
+          "Matplotlib",
+          "Scikit-learn"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a DataFrame in Pandas?",
+        "options": [
+          "A single value",
+          "A one-dimensional array",
+          "A two-dimensional data structure",
+          "A function"
+        ],
+        "correctAnswer": 2
+      }
+    ]
+  }
+]
