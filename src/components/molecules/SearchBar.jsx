@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Input from "@/components/atoms/Input";
-import Button from "@/components/atoms/Button";
-import AppIcon from "@/components/atoms/AppIcon";
 import { cn } from "@/utils/cn";
-const SearchBar = ({ 
+import AppIcon from "@/components/ApperIcon";
+import Button from "@/components/atoms/Button";
+import Input from "@/components/atoms/Input";
+
+const SearchBar = ({
   onSearch, 
   placeholder = "Search courses...",
   className,

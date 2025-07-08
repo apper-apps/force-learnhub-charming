@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import { cn } from "@/utils/cn";
+import AppIcon from "@/components/ApperIcon";
 import CourseGrid from "@/components/organisms/CourseGrid";
 import SearchBar from "@/components/molecules/SearchBar";
-import AppIcon from "@/components/atoms/AppIcon";
-import { cn } from "@/utils/cn";
+
 const SearchResults = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [query, setQuery] = useState(searchParams.get("q") || "");
@@ -58,7 +59,7 @@ const SearchResults = () => {
           />
         ) : (
           <div className="text-center py-12">
-<div className="max-w-md mx-auto">
+            <div className="max-w-md mx-auto">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <AppIcon name="Search" className="w-8 h-8 text-gray-400" />
               </div>
