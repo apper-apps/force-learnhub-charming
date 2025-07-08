@@ -51,12 +51,12 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <motion.div
-              whileHover={{ scale: 1.05 }}
+whileHover={{ scale: 1.05 }}
               className="w-8 h-8 bg-gradient-to-r from-primary-600 to-secondary-600 rounded-lg flex items-center justify-center"
             >
               <ApperIcon name="GraduationCap" className="w-5 h-5 text-white" />
             </motion.div>
-            <span className="text-xl font-display font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
+            <span className="text-xl font-display font-bold text-gray-800">
               LearnHub
             </span>
           </Link>
@@ -74,11 +74,11 @@ const Header = () => {
                     : "text-gray-600 hover:text-primary-700 hover:bg-gray-50"
                 )}
               >
-                <ApperIcon 
+<ApperIcon 
                   name={item.icon} 
                   className={cn(
                     "w-4 h-4 transition-colors",
-                    isActiveRoute(item.href) ? "text-primary-600" : "text-gray-400 group-hover:text-primary-600"
+                    isActiveRoute(item.href) ? "text-primary-600" : "text-gray-600 group-hover:text-primary-600"
                   )} 
                 />
                 <span>{item.name}</span>
@@ -115,11 +115,11 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu Toggle */}
-          <button
+<button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="md:hidden p-2 rounded-lg text-gray-600 hover:text-primary-600 hover:bg-gray-50 transition-colors"
           >
-            <ApperIcon name={isMobileMenuOpen ? "X" : "Menu"} className="w-6 h-6" />
+            <ApperIcon name={isMobileMenuOpen ? "X" : "Menu"} className="w-6 h-6 text-gray-600 hover:text-primary-600 transition-colors" />
           </button>
         </div>
 
@@ -149,8 +149,11 @@ const Header = () => {
                     ? "bg-gradient-to-r from-primary-50 to-secondary-50 text-primary-700"
                     : "text-gray-600 hover:text-primary-700 hover:bg-gray-50"
                 )}
-              >
-                <ApperIcon name={item.icon} className="w-5 h-5" />
+>
+                <ApperIcon name={item.icon} className={cn(
+                  "w-5 h-5 transition-colors",
+                  isActiveRoute(item.href) ? "text-primary-600" : "text-gray-600"
+                )} />
                 <span>{item.name}</span>
               </Link>
             ))}
