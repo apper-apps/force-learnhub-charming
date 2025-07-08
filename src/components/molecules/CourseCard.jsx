@@ -151,13 +151,13 @@ const CourseCard = ({
         </div>
       </Link>
 
-      {/* Action buttons */}
+{/* Action buttons */}
       <div className="px-6 pb-6">
         {showProgress ? (
           <Button
             variant="primary"
             size="md"
-            className="w-full"
+            className="w-full text-white"
             onClick={() => onContinue?.(course)}
             icon="Play"
           >
@@ -167,7 +167,7 @@ const CourseCard = ({
           <Button
             variant="primary"
             size="md"
-            className="w-full"
+            className="w-full text-white"
             onClick={() => onEnroll?.(course)}
             icon="BookOpen"
           >
