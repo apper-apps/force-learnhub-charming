@@ -117,16 +117,12 @@ const Home = () => {
               />
             </motion.div>
 
-            <motion.div
+<motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
               className="flex flex-wrap justify-center gap-4"
             >
-              <Button variant="primary" size="lg" className="bg-white text-primary-600 hover:bg-gray-50">
-                <ApperIcon name="Play" className="w-5 h-5 mr-2" />
-                Start Learning
-              </Button>
               <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
                 <ApperIcon name="BookOpen" className="w-5 h-5 mr-2" />
                 Browse Courses
@@ -295,15 +291,7 @@ const Home = () => {
             <p className="text-xl mb-8 text-blue-100">
               Join millions of learners and start building the skills you need for success.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                variant="primary" 
-                size="lg" 
-                className="bg-white text-primary-600 hover:bg-gray-50"
-              >
-                <ApperIcon name="User" className="w-5 h-5 mr-2" />
-                Get Started Free
-              </Button>
+<div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 variant="outline" 
                 size="lg" 
