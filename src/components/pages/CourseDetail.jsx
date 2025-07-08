@@ -193,12 +193,12 @@ const CourseDetail = () => {
                   )}
                 </div>
 
-                {isEnrolled ? (
+{isEnrolled ? (
                   <div className="space-y-4">
                     <Button
                       variant="primary"
                       size="lg"
-                      className="w-full"
+                      className="w-full !text-white [&_svg]:!text-white"
                       onClick={handleStartLearning}
                       icon="Play"
                     >
