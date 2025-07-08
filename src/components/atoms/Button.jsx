@@ -33,12 +33,13 @@ const Button = forwardRef(({
 
   const isDisabled = disabled || loading;
 
-  return (
+return (
     <button
       className={cn(
         baseStyles,
         variants[variant],
         sizes[size],
+        (variant === "primary" || variant === "secondary" || variant === "danger" || variant === "success") && "text-white",
         isDisabled && "opacity-50 cursor-not-allowed",
         className
       )}
